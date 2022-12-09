@@ -32,4 +32,10 @@ nav {
 nav a {
   margin-inline: 0.5rem;
 }
+
+@media screen and (max-width: 700px) {
+  header {
+    width: 90%;
+  }
+}
 </style>

@@ -9,7 +9,7 @@ const dateTo = ref("01 Février 2023");
 </script>
 
 <template>
-  <v-card class="mx-auto rounded-lg" max-width="fit">
+  <v-card class="mx-auto rounded-lg elevation-0" max-width="fit" color="info">
     <v-img class="align-end text-white" height="200" :src="url" cover>
       <v-card-title class="card_title">
         <h3>Lorem, ipsum dolor.</h3>
@@ -25,11 +25,11 @@ const dateTo = ref("01 Février 2023");
     </v-card-text>
 
     <v-card-actions>
-      <v-btn color="blue">
+      <v-btn color="white">
         <p>Action</p>
       </v-btn>
 
-      <v-btn color="blue">
+      <v-btn color="white">
         <p>Action</p>
       </v-btn>
     </v-card-actions>
