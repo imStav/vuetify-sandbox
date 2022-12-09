@@ -1,11 +1,11 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import { RouterLink, RouterView } from "vue-router";
+import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
   <header>
-    <HelloWorld msg="You did it!" />
+    <HelloWorld msg="Titre" />
 
     <nav>
       <RouterLink to="/">Home</RouterLink>
@@ -18,13 +18,18 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <style scoped>
 header {
-  width: 100%;
+  width: 70%;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   margin-block: 2rem;
+  margin-inline: auto;
 }
 
 nav {
-  margin-inline: auto;
+  margin-top: 2rem;
+}
+
+nav a {
+  margin-inline: 0.5rem;
 }
 </style>
