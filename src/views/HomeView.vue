@@ -9,24 +9,28 @@ import Card from "../components/Card.vue";
       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
       author="imStav"
       date="Feb. 1, 2023"
+      :status="true"
     />
     <Card
       title="Lorem ipsum"
       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
       author="imStav"
       date="Feb. 1, 2023"
+      :status="false"
     />
     <Card
       title="Lorem ipsum"
       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
       author="imStav"
       date="Feb. 1, 2023"
+      :status="false"
     />
     <Card
       title="Lorem ipsum"
       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
       author="imStav"
       date="Feb. 1, 2023"
+      :status="true"
     />
   </main>
 </template>
