@@ -4,48 +4,68 @@ import Card from "../components/Card.vue";
 
 <template>
   <main>
-    <div class="grid">
-      <Card />
-      <Card />
-      <Card />
-    </div>
+    <Card
+      title="Lorem ipsum"
+      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      author="imStav"
+      date="Feb. 1, 2023"
+    />
+    <Card
+      title="Lorem ipsum"
+      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      author="imStav"
+      date="Feb. 1, 2023"
+    />
+    <Card
+      title="Lorem ipsum"
+      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      author="imStav"
+      date="Feb. 1, 2023"
+    />
+    <Card
+      title="Lorem ipsum"
+      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      author="imStav"
+      date="Feb. 1, 2023"
+    />
   </main>
 </template>
 
 <style scoped>
 main {
-  width: 50%;
-  margin-inline: auto;
-}
-.grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+  max-width: 50%;
+  margin-inline: auto;
+  place-content: center;
+  place-items: center;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1650px) {
   main {
-    width: 70%;
-  }
-  .grid {
+    max-width: 60%;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1100px) {
   main {
-    width: 90%;
-  }
-  .grid {
-    grid-template-columns: repeat(1, 1fr);
+    max-width: 70%;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 950px) {
   main {
-    width: 90%;
+    max-width: 90%;
+    grid-template-columns: repeat(2, 1fr);
   }
-  .grid {
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    max-width: 90%;
     grid-template-columns: repeat(1, 1fr);
   }
 }
