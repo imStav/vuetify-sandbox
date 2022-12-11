@@ -10,7 +10,6 @@ defineProps({
 <template>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
-    <h3>Lorem, ipsum dolor.</h3>
   </div>
 </template>
 
@@ -18,5 +17,6 @@ defineProps({
 .greetings {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 </style>

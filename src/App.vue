@@ -5,7 +5,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 
 <template>
   <header>
-    <HelloWorld msg="Titre" />
+    <HelloWorld msg="VuetifyIt!" />
 
     <nav>
       <RouterLink to="/">Home</RouterLink>
@@ -21,12 +21,9 @@ header {
   width: 70%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-block: 2rem;
   margin-inline: auto;
-}
-
-nav {
-  margin-top: 2rem;
 }
 
 nav a {
