@@ -1,9 +1,12 @@
 <script setup>
+import Alert from '../components/Alert.vue';
 </script>
 
 <template>
   <main>
     <h1>Archives</h1>
+
+    <Alert :status="false" message="This section regroups all archived articles, posts, cards." />
   </main>
 </template>
 
