@@ -25,12 +25,16 @@ defineProps({
   status: {
     type: Boolean,
     required: true,
-  }
+  },
 });
 </script>
 
 <template>
-  <v-card class="mx-auto rounded-lg elevation-0" variant="tonal" :color="status ? 'default' : 'warning'">
+  <v-card
+    class="mx-auto rounded-lg elevation-0"
+    variant="tonal"
+    :color="status ? 'default' : 'warning'"
+  >
     <v-img class="align-end text-white" height="200" :src="url" cover>
       <v-card-title class="card_title">
         <h3>{{ title }}</h3>
@@ -73,6 +77,6 @@ defineProps({
 }
 
 .card_subtitle span {
-  margin-inline: .5rem;
+  margin-inline: 0.5rem;
 }
 </style>

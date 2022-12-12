@@ -1,12 +1,15 @@
 <script setup>
-import Alert from '../components/Alert.vue';
+import Alert from "../components/Alert.vue";
 </script>
 
 <template>
   <main>
     <h1>Archives</h1>
 
-    <Alert status="info" message="This section regroups all archived articles, posts, cards." />
+    <Alert
+      status="info"
+      message="This section regroups all archived articles, posts, cards."
+    />
   </main>
 </template>
 
