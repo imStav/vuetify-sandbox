@@ -13,7 +13,7 @@ defineProps({
 
 <template>
 <v-alert
-    :color="status ? 'default' : 'info'"
+    :color="status"
     variant="tonal"
     density="compact"
 >

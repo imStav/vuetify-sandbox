@@ -6,7 +6,7 @@ import Alert from '../components/Alert.vue';
   <main>
     <h1>Archives</h1>
 
-    <Alert :status="false" message="This section regroups all archived articles, posts, cards." />
+    <Alert status="info" message="This section regroups all archived articles, posts, cards." />
   </main>
 </template>
 
