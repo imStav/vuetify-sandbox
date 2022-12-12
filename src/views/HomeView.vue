@@ -56,20 +56,17 @@ main {
 @media screen and (max-width: 1100px) {
   main {
     max-width: 70%;
-    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width: 950px) {
   main {
     max-width: 90%;
-    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width: 600px) {
   main {
-    max-width: 90%;
     grid-template-columns: repeat(1, 1fr);
   }
 }
