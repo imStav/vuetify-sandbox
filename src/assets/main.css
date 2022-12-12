@@ -4,6 +4,10 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
+body {
+    margin-bottom: 5rem;
+}
+
 h1,
 h2,
 h3 {
