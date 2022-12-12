@@ -49,7 +49,8 @@ defineProps({
 
     <v-card-actions>
       <v-btn color="currentColor">
-        <p>Read more</p>
+        <p v-if="status">Read more</p>
+        <p v-else>Archived</p>
       </v-btn>
     </v-card-actions>
   </v-card>
