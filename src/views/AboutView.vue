@@ -1,15 +1,21 @@
+<script setup>
+let blog = {
+  name: 'Bloggy'
+}
+</script>
+
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <main class="about">
+    <h1>About {{ blog.name }}</h1>
+  </main>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+<style scoped>
+main {
+  display: grid;
+  max-width: 50%;
+  margin-inline: auto;
+  place-content: center;
+  place-items: center;
 }
 </style>
